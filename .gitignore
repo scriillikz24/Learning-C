@@ -1,0 +1,10 @@
+# Ignore all executable files (no extension on Linux/Mac)
+*
+# But don't ignore files with extensions
+!*.*
+# Don't ignore Makefiles
+!Makefile
+
+# Ignore specific compiled objects
+*.o
+*.out
