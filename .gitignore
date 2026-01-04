@@ -1,10 +1,12 @@
-# Ignore all executable files (no extension on Linux/Mac)
+# 1. Ignore all compiled binaries (files with no extension)
 *
-# But don't ignore files with extensions
+!*/
 !*.*
-# Don't ignore Makefiles
+
+# 2. Specifically allow Makefiles (they have no dot)
 !Makefile
 
-# Ignore specific compiled objects
+# 3. Specifically ignore object files and common C junk
 *.o
 *.out
+*.exe
