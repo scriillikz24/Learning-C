@@ -1,6 +1,4 @@
-#define _DEFAULT_SOURCE
 #include <curses.h>
-#include <unistd.h>
 
 #define HASHTAG '#'
 #define STAR '*'
